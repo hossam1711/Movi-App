@@ -1,0 +1,61 @@
+.details-btn {
+  padding: 6px 12px;
+  background: #e50914;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap; /* يمنع كسر النص */
+}
+
+.details-btn:hover {
+  background: #f40612;
+  transform: scale(1.05);
+}
+
+.details-btn:active {
+  transform: scale(0.98);
+}
+
+.overlay-actions {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+  margin-top: 10px;
+  gap: 15px; 
+}
+
+.favorite-btn {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #fff;
+  background: transparent;
+  border-radius: 50%; 
+  cursor: pointer;
+  font-size: 18px;
+  transition: transform 0.2s, background 0.2s;
+  padding: 0; 
+  flex-shrink: 0; 
+}
+
+.favorite-btn.filled {
+  color: red;
+  border-color: red;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.favorite-btn.bordered {
+  color: white;
+  border-color: white;
+}
+
+.favorite-btn:hover {
+  transform: scale(1.2);
+  background: rgba(0, 0, 0, 0.7);
+}
