@@ -8,7 +8,7 @@
   border-radius: 4px;
   cursor: pointer;
   transition: all 0.2s ease;
-  white-space: nowrap; /* يمنع كسر النص */
+  white-space: nowrap; 
 }
 
 .details-btn:hover {
